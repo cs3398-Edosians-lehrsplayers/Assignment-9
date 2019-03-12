@@ -1,4 +1,3 @@
-
 package carcraft;
 
 public interface ICar {

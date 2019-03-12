@@ -4,7 +4,7 @@
 
 package carcraft;
 
-public class PaintColor implements CarOptions {
+public class PaintColor extends CarOptions {
     
     public String color;
     
