@@ -16,6 +16,6 @@ public class SuperCharger extends CarOptions
         @Override
         public String GetDescription()
         {
-            return super.GetDescription() + " with " + SuperCharger + " color";
+            return super.GetDescription() + " with " + SuperCharger;
         }
 }
