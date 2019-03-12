@@ -1,3 +1,5 @@
+package carcraft;
+
 public class SuperCharger extends CarOptions
 {
         public String SuperCharger;

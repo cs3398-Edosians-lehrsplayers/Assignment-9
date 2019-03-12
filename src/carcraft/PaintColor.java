@@ -1,4 +1,8 @@
+
+
 // Author: McCray, Warren
+
+package carcraft;
 
 public class PaintColor implements CarOptions {
     
