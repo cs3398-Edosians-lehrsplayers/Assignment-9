@@ -6,8 +6,8 @@ public class CarOptions implements ICar {
 		System.out.print("  Option Constructor\n");
 	}
     @Override
-    public void GetDescription() {
-        System.out.print("  Lets give your car some option");
+    public String GetDescription() {
+        return "  Lets give your car some option";
     }
 
 }
