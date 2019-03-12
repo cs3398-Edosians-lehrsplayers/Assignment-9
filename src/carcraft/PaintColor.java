@@ -6,20 +6,17 @@ package carcraft;
 
 public class PaintColor extends CarOptions {
     
-    public String color;
+    public PaintColor(ICar car){
+    super(car);
+  }
+
+ 
+  public String GetDescription(){
+    return car.GetDescription() + addPaint();
+  }
     
-    public PaintColor() {
-        System.out.println("PaintColor constructor");
-        color = "Colour";
-    }
-    
-    public PaintColor(String color) {
-        System.out.println("PaintColor constructor");
-        this.color = color;
-    }
-    
-    @Override
-    public String GetDescription() {
-        return super.GetDescription() + "; Colour: "  + color;
-    }
+
+  private String addPaint(){
+    return " + brand new paint";
+  }
 }

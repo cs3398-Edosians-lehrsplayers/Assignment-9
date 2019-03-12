@@ -1,13 +1,17 @@
 package carcraft;
 
-public class CarOptions implements ICar {
+public abstract class CarOptions implements ICar {
 
-    public CarOptions() {
-		System.out.print("  Option Constructor\n");
+    
+    protected ICar car;
+
+    public CarOptions(ICar car ) {
+		this.car = car;
 	}
+   
     @Override
     public String GetDescription() {
-        return "  Lets give your car some option";
+        return car.GetDescription();
     }
 
 }

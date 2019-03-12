@@ -2,19 +2,19 @@ package carcraft;
 
 public class SportsWheels extends CarOptions
 {
-	
-   public String Wheels;
+  
 
+	public SportsWheels(ICar car){
+    super(car);
+  }
 
-    public SportsWheels()
-    {
-      System.out.print(" CarWithSportsWheels Constructor\n");
-			Wheels = "Wheels";
-    }
+ 
+  public String GetDescription(){
+    return car.GetDescription() + addWheels();
+  }
+    
 
-    @Override
-    public String GetDescription()
-  	{
-        return super.GetDescription() + " with " + Wheels;
-  	}
+  private String addWheels(){
+    return " + brand new wheels";
+  }
 }
