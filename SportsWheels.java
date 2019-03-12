@@ -1,6 +1,3 @@
-
-
-
 public class SportsWheels extends CarOptions
 {
 	
@@ -18,6 +15,4 @@ public class SportsWheels extends CarOptions
   	{
         return super.GetDescription() + " with " + Wheels;
   	}
-
-
 }
