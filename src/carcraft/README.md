@@ -1,4 +1,11 @@
 # Assignment-9
 
-Jaysen worked on creating the SportsWheels.java subclass
+John Pappas created the SuperCharger subclass.
 
+Jaysen created the SportsWheels subclass & Main function.
+
+Ozy created the CarOptions superclass.
+
+Warren created the PaintColor subclass.
+
+Spencer created the AirScoop subclass.
